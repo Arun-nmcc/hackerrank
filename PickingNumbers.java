@@ -6,7 +6,7 @@ public class PickingNumbers
     {
         Scanner scan = new Scanner(System.in);
 
-        int n = readIn.nextInt();
+        int n = scan.nextInt();
         int[] arr = new int[100];
         for(int ii = 0; ii < n; ii++)
             arr[scan.nextInt()]++;
