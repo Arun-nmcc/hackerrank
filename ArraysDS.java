@@ -12,8 +12,8 @@ public class ArraysDS {
         for (int i=0, j=arr.length-1;i<n/2;i++,j--) {
 
 temp=arr[i];
-arr[j]=temp;
-arr[i]=arr[j];
+arr[i]=temp;
+arr[j]=arr[j];
         }
         for (int i=0;i<n;i++){
             System.out.println(arr[i]);
